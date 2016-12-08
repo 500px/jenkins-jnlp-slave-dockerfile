@@ -2,11 +2,14 @@
 
 Extends [cloudbees/java-build-tools](https://hub.docker.com/r/cloudbees/java-build-tools/) so it can be used as a Jenkins JLNP slave, for use with Jenkins Cloud plugins.
 
+Also adds in necessary bits and pieces for 500px Platform tools to function correctly.
+
 See [README](https://hub.docker.com/r/cloudbees/java-build-tools/) for details on available tools.
 
 # Supported tags and respective `Dockerfile` links
 
--   [`latest` (*latest/Dockerfile*)](https://github.com/cloudbees/jnlp-slave-with-java-build-tools-dockerfile/blob/master/Dockerfile)
+-   [`latest` (*latest/Dockerfile*)](https://github.com/500px/jenkins-jnlp-slave-dockerfile/blob/master/Dockerfile)
+-   [`1.0.1` (*1.0.1/Dockerfile*)](https://github.com/500px/jenkins-jnlp-slave-dockerfile/blob/1.0.1/Dockerfile)
 -   [`1.0.0` (*1.0.0/Dockerfile*)](https://github.com/cloudbees/jnlp-slave-with-java-build-tools-dockerfile/blob/1.0.0/Dockerfile)
 -   [`0.0.5.1` (*0.0.5.1/Dockerfile*)](https://github.com/cloudbees/jnlp-slave-with-java-build-tools-dockerfile/blob/0.0.5.1/Dockerfile)
 -   [`0.0.5` (*0.0.5/Dockerfile*)](https://github.com/cloudbees/jnlp-slave-with-java-build-tools-dockerfile/blob/0.0.5/Dockerfile)
