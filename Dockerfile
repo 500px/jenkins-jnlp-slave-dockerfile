@@ -6,6 +6,7 @@ RUN apt-get update -qqy \
   && apt-get -qqy --no-install-recommends install \
     libyaml-dev \
     python-dev \
+    libffi-dev \
   && rm -rf /var/lib/apt/lists/*
 
 RUN curl --create-dirs -sSLo /usr/share/jenkins/slave.jar http://repo.jenkins-ci.org/public/org/jenkins-ci/main/remoting/2.59/remoting-2.59.jar \
