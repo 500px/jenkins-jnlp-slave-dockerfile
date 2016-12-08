@@ -4,9 +4,15 @@ USER root
 
 RUN apt-get update -qqy \
   && apt-get -qqy --no-install-recommends install \
-    libyaml-dev \
+    python-pip \
     python-dev \
     libffi-dev \
+    libssl-dev \
+    libxml2-dev \
+    libxslt1-dev \
+    libjpeg8-dev \
+    zlib1g-dev \
+    libyaml-dev \
   && rm -rf /var/lib/apt/lists/*
 
 RUN curl --create-dirs -sSLo /usr/share/jenkins/slave.jar http://repo.jenkins-ci.org/public/org/jenkins-ci/main/remoting/2.59/remoting-2.59.jar \
